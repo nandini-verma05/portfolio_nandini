@@ -1,0 +1,40 @@
+* Resetting default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Example background color */
+}
+
+/* Section styles */
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+/* Achievement container styles */
+.resume_container {
+  margin: 10px;
+  background-color: #fff; /* Example background color */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Example shadow */
+  padding: 20px;
+  text-align: center;
+}
+
+/* Image styles */
+.resume_container img {
+  width: 500px; /* Adjust as needed */
+  height: auto; /* Maintain aspect ratio */
+  border: 1px solid #ccc; /* Optional: Add border for visual clarity */
+  border-radius: 8px; /* Optional: Add border radius */
+  margin-bottom: 10px;
+}
